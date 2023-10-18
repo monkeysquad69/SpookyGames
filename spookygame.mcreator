@@ -1,0 +1,54 @@
+{
+  "mod_elements": [
+    {
+      "name": "AcidFluid",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spookygame/item/AcidFluidItem.java",
+          "src/main/java/net/mcreator/spookygame/fluid/AcidFluidFluid.java",
+          "src/main/resources/assets/spookygame/blockstates/acid_fluid.json",
+          "src/main/resources/assets/spookygame/models/item/acid_fluid_bucket.json",
+          "src/main/java/net/mcreator/spookygame/fluid/types/AcidFluidFluidType.java",
+          "src/main/resources/assets/spookygame/models/block/acid_fluid.json",
+          "src/main/java/net/mcreator/spookygame/block/AcidFluidBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.spookygame.acid_fluid": "Acid Fluid",
+      "item.spookygame.acid_fluid_bucket": "Acid Fluid Bucket",
+      "fluid.spookygame.acid_fluid": "Acid Fluid"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "spookygame",
+    "modName": "spookygame",
+    "version": "1.0.0",
+    "author": "prior, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.spookygame",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

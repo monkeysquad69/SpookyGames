@@ -116,6 +116,17 @@
           }
         ]
       }
+    },
+    {
+      "name": "SpookyGameItems",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spooky_game_items",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -123,6 +134,7 @@
   "language_map": {
     "en_us": {
       "block.spookygame.acid_fluid": "Acid Fluid",
+      "item_group.spookygame.spooky_game_items": "Spooky Game Items",
       "item.spookygame.acid_fluid_bucket": "Acid Fluid Bucket",
       "item.spookygame.jello_sword": "Jello Sword",
       "effect.spookygame.jello_effect": "Jello",
@@ -148,6 +160,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.spookygame",
     "lockBaseModFiles": false
   },

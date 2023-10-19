@@ -22,6 +22,11 @@ public class SpookygameModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(SpookygameModItems.JELLO_SWORD.get());
+			tabData.accept(SpookygameModItems.GUMMY_SWORD.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SpookygameModItems.ACID_FLUID_BUCKET.get());
 		}

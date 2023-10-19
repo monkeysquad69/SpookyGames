@@ -20,7 +20,7 @@ public class AcidFluidFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("spookygame:block/acid_still"), FLOWING_TEXTURE = new ResourceLocation("spookygame:block/aicdflowhelpme");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("spookygame:block/still"), FLOWING_TEXTURE = new ResourceLocation("spookygame:block/aicdflowhelpme");
 
 			@Override
 			public ResourceLocation getStillTexture() {

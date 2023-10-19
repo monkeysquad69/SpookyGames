@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.spookygame.init.SpookygameModTabs;
+import net.mcreator.spookygame.init.SpookygameModMobEffects;
 import net.mcreator.spookygame.init.SpookygameModItems;
 import net.mcreator.spookygame.init.SpookygameModFluids;
 import net.mcreator.spookygame.init.SpookygameModFluidTypes;
@@ -58,6 +59,8 @@ public class SpookygameMod {
 		SpookygameModItems.REGISTRY.register(bus);
 
 		SpookygameModTabs.REGISTRY.register(bus);
+
+		SpookygameModMobEffects.REGISTRY.register(bus);
 
 		SpookygameModFluids.REGISTRY.register(bus);
 		SpookygameModFluidTypes.REGISTRY.register(bus);

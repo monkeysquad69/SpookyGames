@@ -1,5 +1,8 @@
 {
   "block.spookygame.acid_fluid": "Acid Fluid",
   "item.spookygame.acid_fluid_bucket": "Acid Fluid Bucket",
+  "item.spookygame.jello_sword": "Jello Sword",
+  "effect.spookygame.jello_effect": "Jello",
+  "item.spookygame.gummy_sword": "Gummy Sword",
   "fluid.spookygame.acid_fluid": "Acid Fluid"
 }

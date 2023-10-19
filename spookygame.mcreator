@@ -18,6 +18,104 @@
           "src/main/java/net/mcreator/spookygame/block/AcidFluidBlock.java"
         ]
       }
+    },
+    {
+      "name": "JelloSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jello_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spookygame/procedures/JelloSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JelloSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jello_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spookygame/item/JelloSwordItem.java",
+          "src/main/resources/assets/spookygame/models/item/jello_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "JelloEffectOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jello_effect_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spookygame/procedures/JelloEffectOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JelloEffect",
+      "type": "potioneffect",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jello_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spookygame/potion/JelloEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "GummySword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gummy_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spookygame/models/item/gummy_sword.json",
+          "src/main/java/net/mcreator/spookygame/item/GummySwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GummySwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gummy_sword_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spookygame/procedures/GummySwordToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -26,6 +124,9 @@
     "en_us": {
       "block.spookygame.acid_fluid": "Acid Fluid",
       "item.spookygame.acid_fluid_bucket": "Acid Fluid Bucket",
+      "item.spookygame.jello_sword": "Jello Sword",
+      "effect.spookygame.jello_effect": "Jello",
+      "item.spookygame.gummy_sword": "Gummy Sword",
       "fluid.spookygame.acid_fluid": "Acid Fluid"
     }
   },

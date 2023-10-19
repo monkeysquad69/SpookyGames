@@ -1,0 +1,32 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "candy_sword",
+    "customModelName": "Normal",
+    "name": "Gummy Sword",
+    "specialInfo": [
+      "§7Give yourself a speed boost."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 2.0,
+    "enchantability": 0,
+    "damageVsEntity": 4.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "GummySwordToolInHandTick"
+    }
+  }
+}

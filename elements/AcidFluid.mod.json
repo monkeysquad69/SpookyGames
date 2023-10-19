@@ -4,7 +4,7 @@
   "definition": {
     "name": "Acid Fluid",
     "bucketName": "Acid Fluid Bucket",
-    "textureStill": "acid_still",
+    "textureStill": "still",
     "textureFlowing": "aicdflowhelpme",
     "tintType": "No tint",
     "canMultiply": false,
@@ -35,7 +35,7 @@
     "luminance": 0,
     "lightOpacity": 1,
     "emissiveRendering": false,
-    "tickRate": 0,
+    "tickRate": 20,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT"
